@@ -172,3 +172,21 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+.DS_Store
+
+# React / Node
+client_react/node_modules/
+client_react/build/
+client_react/.env
+client_react/.env.local
+client_react/.env.development.local
+client_react/.env.test.local
+client_react/.env.production.local
+client_react/npm-debug.log*
+client_react/yarn-debug.log*
+client_react/yarn-error.log*
+client_react/.pnp
+client_react/.pnp.js
+client_react/coverage/
+client_react/.next/
+client_react/out/
