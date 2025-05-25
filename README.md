@@ -1,6 +1,6 @@
 # FastAPI Authentication Service
 
-A simple authentication service built with FastAPI and PostgreSQL.
+A simple authentication service built with FastAPI and PostgreSQL. React.js for Client Connection.
 
 ## ⚠️ Security Notice
 
@@ -79,7 +79,7 @@ To run in debug mode:
 2. Press F5 or select "FastAPI Debug" from the debug menu
 3. The server will start with hot-reload enabled
 
-## Deployment
+## Client Deployment
 
 ### Deploying Client on Render.com
 
