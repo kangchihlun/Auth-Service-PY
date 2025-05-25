@@ -78,3 +78,15 @@ To run in debug mode:
 1. Open VS Code
 2. Press F5 or select "FastAPI Debug" from the debug menu
 3. The server will start with hot-reload enabled
+
+## Deployment
+
+### Deploying Client on Render.com
+
+1. Create a new Web Service on Render.com
+2. Connect your repository
+3. Configure the deployment settings:
+   - **Root Directory**: `client_react`
+   - **Build Command**: `npm install && npm run build`
+   - **Publish Directory**: `build`
+4. Click "Create Web Service" to start the deployment
